@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/mlh-hackathon-flask-starter.iml" filepath="$PROJECT_DIR$/.idea/mlh-hackathon-flask-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/wehack.iml" filepath="$PROJECT_DIR$/.idea/wehack.iml" />
     </modules>
   </component>
 </project>

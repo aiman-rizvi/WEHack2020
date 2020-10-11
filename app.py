@@ -20,6 +20,12 @@ def resources():
 def user_profile():
     return 'Welcome to the users profile!'
 
+@app.route('/mentor_example', methods=['GET'])
+def mentor_example():
+    return render_template('mentor.html', title="Connect!")
+
+
+
 
 if __name__ == '__main__':
     app.run()

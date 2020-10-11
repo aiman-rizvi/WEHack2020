@@ -18,7 +18,7 @@
 <p align="center">
   
 
-  <h3 align="center">#RISE</h3>
+  <h1 align="center">RISE</h1>
 
   <p align="center">
 Empowering women entrepreneurs one connection at a time <br />

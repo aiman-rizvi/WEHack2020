@@ -1,5 +1,5 @@
 body, html{
-    background: url(/static/img/background.png) no-repeat center center fixed;
+    background: url(/static/img/background.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -24,7 +24,7 @@ p
 #company-name{
     padding-top: 15px;
     font-size:15px;
-    color: darkslategray;
+    color: darkgray;
     font-weight: bolder;
 
 }
@@ -47,7 +47,7 @@ p
 }
 
 h1{
-    font-family: 'Crimson Text', serif;
+    font-family: 'Julius Sans One', sans-serif;
     font-size: 110px;
     color: #fff;
     text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;

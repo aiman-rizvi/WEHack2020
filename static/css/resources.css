@@ -1,0 +1,13 @@
+h2{
+    padding-top: 30px;
+}
+
+.vidsize{
+    width: 750px;
+    padding-top: 950px;
+    position: absolute;
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

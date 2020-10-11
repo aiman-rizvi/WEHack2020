@@ -10,16 +10,15 @@ def hello_world():
 
 @app.route('/user_home', methods=['GET'])
 def user_home():
-    return render_template('home.html', title="User - Home")
+    return render_template('network.html', title="User - Home")
 
-@app.route('/network', methods=['GET'])
-def network():
-    return render_template('network.html', title="Connect!")
+@app.route('/resources', methods=['GET'])
+def resources():
+    return render_template('resources.html', title="Connect!")
 
 @app.route('/user_profile', methods=['GET'])
 def user_profile():
     return 'Welcome to the users profile!'
-
 
 
 if __name__ == '__main__':

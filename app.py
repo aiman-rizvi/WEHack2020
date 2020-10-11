@@ -6,7 +6,7 @@ app = Flask(__name__, static_url_path='/static')
 # Routes
 @app.route('/')
 def hello_world():
-    return 'Hello World!'
+    return render_template('landing.html', title="landing")
 
 @app.route('/user_home', methods=['GET'])
 def user_home():

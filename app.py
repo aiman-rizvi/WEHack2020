@@ -1,25 +1,24 @@
-from flask import Flask
+from flask import Flask, render_template
 
-app = Flask(__name__)
+app = Flask(__name__, static_url_path='/static')
 
 
+# Routes
 @app.route('/')
 def hello_world():
     return 'Hello World!'
 
 @app.route('/user_home', methods=['GET'])
 def user_home():
-    return 'Welcome to the user-home page!'
+    return render_template('home.html', title="User - Home")
 
 @app.route('/network', methods=['GET'])
 def network():
-    return 'Welcome to the page where users can find people to connect with!'
+    return render_template('network.html', title="Connect!")
 
 @app.route('/user_profile', methods=['GET'])
 def user_profile():
     return 'Welcome to the users profile!'
-
-
 
 
 

@@ -5,7 +5,7 @@ app = Flask(__name__, static_url_path='/static')
 
 # Routes
 @app.route('/')
-def hello_world():
+def landing():
     return render_template('landing.html', title="landing")
 
 @app.route('/user_home', methods=['GET'])
@@ -18,13 +18,15 @@ def resources():
 
 @app.route('/user_profile', methods=['GET'])
 def user_profile():
-    return 'Welcome to the users profile!'
+    return render_template('user.html', title="user_profile")
 
 @app.route('/mentor_example', methods=['GET'])
 def mentor_example():
     return render_template('mentor.html', title="Connect!")
 
-
+@app.route('/logout')
+def logout():
+    return render_template('landing.html', title="landing")
 
 
 if __name__ == '__main__':
